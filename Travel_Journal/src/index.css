@@ -47,6 +47,7 @@ article.journal-entry {
     margin: 58px auto;
     padding-bottom: 58px;
     border-bottom: 1px solid #ded4c8;
+    margin-bottom: 36px;
 }
 
 article.journal-entry .main-image-container {

@@ -7,16 +7,10 @@ export default function App(){
     return (
         <>
             <Header />
-            {data.map((item) => (
+            {data.map((entry) => (
                 <Entry
-                    key={item.id}
-                    id={item.id}
-                    img={item.img}
-                    title={item.title}
-                    country={item.country}
-                    googleMapsLink={item.googleMapsLink}
-                    dates={item.dates}
-                    text={item.text}
+                    key={entry.id}
+                    entry={entry}
                 />
             ))}
         </>

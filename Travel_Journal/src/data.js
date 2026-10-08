@@ -1,38 +1,43 @@
+import essouira from "./assets/Mogafestival.jpg"
+import imsouane from "./assets/imsouane.jpg"
+
 export default [
     {
         id: 1,
         img: {
-            src: "https://scrimba.com/links/travel-journal-japan-image-url",
-            alt: "Mount Fuji"
+            src: imsouane,
+            alt: "Surfer riding a wave at Imsouane Bay"
         },
-        title: "Mount Fuji",
-        country: "Japan",
-        googleMapsLink: "https://maps.app.goo.gl/6RLYZDuuuqJ7kNGZ9",
-        dates: "12 Jan, 2021 - 24 Jan, 2021",
-        text: "Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists."
+        title: "Imsouane",
+        country: "Morocco",
+        googleMapsLink: "https://www.google.com/maps/search/?api=1&query=30.84333,-9.81861",
+        dates: "15 Jun, 2025 - 20 Jun, 2025",
+        text: "Imsouane is a beautiful coastal village in Morocco, famous for its long waves and relaxed atmosphere. It is a great destination for surfing, enjoying the ocean, and discovering Moroccan coastal life."
     },
+
     {
         id: 2,
         img: {
-            src: "https://scrimba.com/links/travel-journal-australia-image-url",
-            alt: "Sydney Opera House"
+            src: essouira,
+            alt: "Essaouira"
         },
-        title: "Sydney Opera House",
-        country: "Australia",
-        googleMapsLink: "https://maps.app.goo.gl/Zr17SCrsJeCEKMd36",
-        dates: "27 May, 2021 - 8 Jun, 2021",
-        text: "The Sydney Opera House is a multi-venue performing arts centre in Sydney. Located on the banks of the Sydney Harbour, it is often regarded as one of the 20th century's most famous and distinctive buildings."
+        title: "Essaouira",
+        country: "Morocco",
+        googleMapsLink: "https://www.google.com/maps/search/?api=1&query=31.5139,-9.7713",
+        dates: "10 Jul, 2025 - 14 Jul, 2025",
+        text: "Essaouira is a charming coastal city known for its beautiful medina, artistic atmosphere, and vibrant music scene. It is a perfect place to experience Moroccan culture and enjoy live music."
     },
+
     {
         id: 3,
         img: {
-            src: "https://scrimba.com/links/travel-journal-norway-image-url",
-            alt: "Geirangerfjord"
+            src: "https://commons.wikimedia.org/wiki/Special:FilePath/Jebel_Toubkal_and_a_group_of_hikers.jpg?width=1200",
+            alt: "Mount Toubkal"
         },
-        title: "Geirangerfjord",
-        country: "Norway",
-        googleMapsLink: "https://maps.app.goo.gl/fhkJuBhmFDv47tiB7",
-        dates: "01 Oct, 2021 - 18 Nov, 2021",
-        text: "The Geiranger Fjord is a fjord in the Sunnmøre region of Møre og Romsdal county, Norway. It is located entirely in the Stranda Municipality."
-    },
-] 
+        title: "Mount Toubkal",
+        country: "Morocco",
+        googleMapsLink: "https://www.google.com/maps/search/?api=1&query=31.05963,-7.91513",
+        dates: "01 Aug, 2025 - 05 Aug, 2025",
+        text: "Mount Toubkal is the highest mountain in North Africa, reaching 4,167 meters. Located in the Atlas Mountains, it is a popular destination for hiking, trekking, and exploring nature."
+    }
+]

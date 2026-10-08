@@ -10,7 +10,7 @@ export default function App(){
             {data.map((entry) => (
                 <Entry
                     key={entry.id}
-                    entry={entry}
+                    {...entry}
                 />
             ))}
         </>
